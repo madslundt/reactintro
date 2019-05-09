@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { hot } from "react-hot-loader/root";
+import Counter from "./components/Counter";
+import logo from "./logo.svg";
+import "./App.css";
 
 const App: React.FC = () => {
   return (
@@ -19,8 +21,11 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <div>
+        <Counter />
+      </div>
     </div>
   );
-}
+};
 
-export default App;
+export default hot(App);
