@@ -1,44 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Intro to React
+This project includes following packages:
+ - React v16.8
+ - React router
+ - TailwindCSS
 
-## Available Scripts
+## How to run
+1. Make sure NodeJS and NPM is installed
+2. Open terminal/cmd and go to root of this project
+3. Run the command `npm install`
+4. Run the command `npm start`
+5. Browser opens webpage `localhost:3000`
 
-In the project directory, you can run:
+## How the application is structured
+ - index.tsx is where we initialize our application starts. This file makes sure to attach our application in the HTML.
+ - App.tsx is the entry point for our application and the one that index.tsx calls. Routing is controlled here.
+ - components/* is the directory for all our components that can be used. Components can use other components
+ - pages/* is the directory for all pages. These pages use components.
 
-### `npm start`
+Feel free to restructure your app to have it look like you want it too.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Important things to remember
+### Keep components small
+By keeping your components small it is easier to maintain different components and reuse them.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Smart and dumb components
+A smart component is defined as a component that stores logic.
 
-### `npm test`
+A dumb component is defined as a component that is only visual. Often it doesn't even contain state (can do in rare cases) but only receives data to visualize from props.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Try have a lot of dumb components and a few smart components.
 
-### `npm run build`
+### Simple over complexity
+Try not to introduce too many libraries just because they are popular. This often results in a more complex application that is harder to maintain.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## React
+React is a JavaScript library for building UI.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Typescript
+Typescript is a superset of Javascript. Typescript introduces a lot of extra stuff to Javascript such as types, enums, interfaces etc.
 
-### `npm run eject`
+## Tailwind CSS
+Tailwind is utility-first and provides highly composable, low-level utility classes that make it easy to build complex user interfaces.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Tailwind is not a UI kit like Bootstrap, so it doesn't have a default theme and no built-in UI components.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The problem that is often seen by using css is that everytime the css is changed it might break the design on some pages because more elements are using the same classes.
+Tailwind tries to solve that problem by providing low-level utility classes to built up the design. These classes are never changed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Documentation for Tailwind CSS can be found [here](https://tailwindcss.com/docs/what-is-tailwind).
