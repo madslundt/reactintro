@@ -7,7 +7,7 @@ This project includes following packages:
 - TailwindCSS
 - FontAwesome
 
-_This is not production ready and still need such things as tree shaking, purge css, etc._
+_This is not production ready and still need optimizations before going into production. Missing tree shaking, purge css, etc._
 
 ## How to run
 
@@ -17,6 +17,8 @@ _This is not production ready and still need such things as tree shaking, purge 
 4. Run the command `npm install`.
 5. Run the command `npm start`.
 6. Browser opens webpage `localhost:3000`.
+
+_This project has included HMR (Hot Module Reloading) so it should be able to render your changes without refreshing the browser_
 
 ## How the application is structured
 
