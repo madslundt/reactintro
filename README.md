@@ -13,7 +13,7 @@ _This is not production ready and still need such things as tree shaking, purge 
 
 1. Make sure [NodeJS](https://nodejs.org/en/download) is installed with npm.
 2. Download this project to a local folder on your computer.
-3. Open terminal/cmd and go to root of this project.
+3. Open terminal/cmd and go the local folder where you just downloaded this project to.
 4. Run the command `npm install`.
 5. Run the command `npm start`.
 6. Browser opens webpage `localhost:3000`.
