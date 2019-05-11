@@ -3,6 +3,4 @@ import useCounter from "./useCounter";
 
 export default Counter;
 
-export {
-    useCounter,
-};
+export { useCounter };
