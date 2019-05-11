@@ -2,8 +2,9 @@
 
 This project includes following packages:
 
-- React v16.8
+- React
 - React router
+- Typescript
 - TailwindCSS
 - FontAwesome
 
@@ -18,7 +19,7 @@ _This is not production ready and still need optimizations before going into pro
 5. Run the command `npm start`.
 6. Browser opens webpage `localhost:3000`.
 
-_This project has included HMR (Hot Module Reloading) so it should be able to render your changes without refreshing the browser_
+_This project has included HMR (Hot Module Reloading) so it should be able to render your changes without refreshing the browser._
 
 ## How the application is structured
 
@@ -64,10 +65,12 @@ Tailwind is utility-first and provides highly composable, low-level utility clas
 
 Tailwind is not a UI kit like Bootstrap, so it doesn't have a default theme and no built-in UI components.
 
-The problem that is often seen by using css is that everytime the css is changed it might break the design on some pages because more elements are using the same classes.
+The problem that is often seen by using css is that every time the css is changed it might break the design on some pages because more elements are using the same classes.
 Tailwind tries to solve that problem by providing low-level utility classes to built up the design. These classes are never changed.
 
 Documentation for Tailwind CSS can be found [here](https://tailwindcss.com/docs/what-is-tailwind).
+
+_Edit `tailwind.js` if you need to customize your own colors._
 
 ## FontAwesome
 
