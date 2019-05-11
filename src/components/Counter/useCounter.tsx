@@ -1,18 +1,12 @@
 import { useState } from "react";
 
-interface IUseCounter {
-  count: number;
-  increment: () => void;
-  decrement: () => void;
-}
-
-const useCounter = (initialValue: number): IUseCounter => {
+const useCounter = (initialValue: number) => {
   const [count, setCount] = useState(initialValue);
 
-  const increment: () => void = () => {
+  const increment = () => {
     setCount(count + 1);
   };
-  const decrement: () => void = () => {
+  const decrement = () => {
     setCount(count - 1);
   };
 
