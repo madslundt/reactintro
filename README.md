@@ -29,7 +29,7 @@ _This project has included HMR (Hot Module Reloading) so it should be able to re
 - **pages/\*** is the directory for all pages. These pages use components.
 - **assets/\*** is the directory for all assets such as images, icons, etc.
 
-Feel free to restructure your app to have it look like you want it too.
+_Feel free to restructure your app to have it look like you want it to._
 
 ## Important things to remember
 
@@ -70,7 +70,7 @@ Tailwind tries to solve that problem by providing low-level utility classes to b
 
 Documentation for Tailwind CSS can be found [here](https://tailwindcss.com/docs/what-is-tailwind).
 
-_Edit `tailwind.js` if you need to customize your own colors._
+_Edit `tailwind.js` if you need to customize your own values such as colors, sizes etc._
 
 ## FontAwesome
 
