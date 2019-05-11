@@ -5,6 +5,7 @@ This project includes following packages:
 - React v16.8
 - React router
 - TailwindCSS
+- FontAwesome
 
 _This is not production ready and still need such things as tree shaking, purge css, etc._
 
