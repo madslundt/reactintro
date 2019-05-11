@@ -53,7 +53,9 @@ Try not to introduce too many libraries just because they are popular. This ofte
 
 React is a JavaScript library for building UI.
 
-The new thing in this is React hooks which was just released in v16.8. Find a lot of custom hooks [here](https://nikgraf.github.io/react-hooks/)
+The new thing in this is React hooks which was just released in v16.8. Find a lot of custom hooks [here](https://nikgraf.github.io/react-hooks/).
+
+[Thinking in React](https://reactjs.org/docs/thinking-in-react.html) written by Facebook.
 
 ## Typescript
 
