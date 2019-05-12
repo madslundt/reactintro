@@ -1,6 +1,6 @@
 import React from "react";
 
-interface IInput {
+interface IProps {
   type: "text" | "number" | "password";
   placeholder?: string;
   value?: string | number;
@@ -8,7 +8,7 @@ interface IInput {
   onChange?: (e: React.FormEvent<HTMLInputElement>) => void;
 }
 
-const Input = (props: IInput) => {
+const Input = (props: IProps) => {
   const label = (
     <label className="block text-grey-darker text-sm font-bold mb-2">
       {props.label}
