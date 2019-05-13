@@ -2,8 +2,12 @@ import React from "react";
 
 import useCounter from "./useCounter";
 
-const Counter = () => {
-  const { count, increment, decrement } = useCounter(10);
+interface IProps {
+  initialValue: number
+}
+
+const Counter = (props: IProps) => {
+  const { count, increment, decrement } = useCounter(props.initialValue);
 
   return (
     <div className="flex flex-col w-full">
