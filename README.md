@@ -31,6 +31,8 @@ _This project has included HMR (Hot Module Reloading) so it should be able to re
 
 _Feel free to restructure your app to have it look like you want it to._
 
+_Do not edit `node_modules/` and `src/index.css` as these are auto generated._
+
 ## Important things to remember
 
 ### Keep components small
