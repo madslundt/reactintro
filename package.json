@@ -3,12 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/jest": "24.0.12",
-    "@types/node": "12.0.0",
-    "@types/react": "16.8.17",
-    "@types/react-dom": "16.8.4",
-    "awesome-typescript-loader": "^5.2.1",
-    "babel-loader": "^8.0.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-fontawesome": "^1.6.1",
@@ -17,10 +11,10 @@
     "typescript": "3.4.5"
   },
   "scripts": {
-    "prestart": "tailwind build ./src/index.tailwind.css -c ./tailwind.js -o ./src/index.css",
-    "start": "react-scripts start",
-    "prebuild": "tailwind build ./src/index.tailwind.css -c ./tailwind.js -o ./src/index.css",
-    "build": "react-scripts build",
+    "build:css": "postcss src/styles/index.css -o src/index.css",
+    "watch:css": "postcss src/styles/index.css -o src/index.css -w",
+    "start": "npm run watch:css & react-scripts start",
+    "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,9 +39,16 @@
     ]
   },
   "devDependencies": {
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.2",
+    "@types/react": "16.8.17",
+    "@types/react-dom": "16.8.4",
     "@types/react-fontawesome": "^1.6.4",
     "@types/react-router-dom": "^4.3.3",
+    "autoprefixer": "^9.5.1",
+    "postcss-cli": "^6.1.2",
     "react-hot-loader": "^4.8.4",
-    "tailwindcss": "^0.7.4"
+    "tailwindcss": "^1.0.1",
+    "webpack-bundle-analyzer": "^3.3.2"
   }
 }
