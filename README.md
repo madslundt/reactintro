@@ -8,7 +8,12 @@ This project includes following packages:
 - TailwindCSS
 - FontAwesome
 
-_This is not production ready and still need optimizations before going into production. Missing tree shaking, purge css, etc._
+## Commands
+`node analyze.js` to build for production and run analyzer.
+
+`npm start` starts up web app in development mode with web server and HMR.
+
+`npm run build` Build for production.
 
 ## How to run
 
@@ -30,8 +35,6 @@ _This project has included HMR (Hot Module Reloading) so it should be able to re
 - **assets/\*** is the directory for all assets such as images, icons, etc.
 
 _Feel free to restructure your app to have it look like you want it to._
-
-_Do not edit `node_modules/` and `src/index.css` as these are auto generated._
 
 ## Important things to remember
 
