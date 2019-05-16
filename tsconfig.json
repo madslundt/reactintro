@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "es6",
     "lib": [
@@ -19,7 +20,6 @@
     "noEmit": true,
     "jsx": "preserve"
   },
-  "extends": "./tsconfig.paths.json",
   "include": [
     "src"
   ]
