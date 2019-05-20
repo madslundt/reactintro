@@ -2,7 +2,7 @@ import React from "react";
 import FontAwesome from "react-fontawesome";
 import { Link } from "react-router-dom";
 
-import eboksIcon from "../../assets/images/eboksplus.png";
+import eboksIcon from "assets/images/eboksplus.png";
 
 const Header = () => (
   <div className="bg-white mx-auto w-full shadow-md overflow-hidden align-middle">

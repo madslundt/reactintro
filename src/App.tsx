@@ -2,8 +2,8 @@ import React from "react";
 import { hot } from "react-hot-loader/root";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Header from "./components/Header";
-import { Home, Profile, Settings, Window } from "./pages";
+import Header from "Components/Header";
+import { Home, Profile, Settings, Window } from "Pages";
 
 const App: React.FC = () => {
   return (

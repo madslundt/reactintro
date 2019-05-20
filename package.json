@@ -48,8 +48,8 @@
     "autoprefixer": "^9.5.1",
     "jest-dom": "^3.2.2",
     "postcss-cli": "^6.1.2",
-    "react-hot-loader": "^4.8.4",
-    "react-testing-library": "^7.0.0",
+    "react-hot-loader": "^4.8.7",
+    "react-testing-library": "^7.0.1",
     "tailwindcss": "^1.0.1",
     "webpack-bundle-analyzer": "^3.3.2"
   }
