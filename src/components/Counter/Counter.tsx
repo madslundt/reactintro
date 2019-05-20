@@ -15,13 +15,13 @@ const Counter = (props: IProps) => {
 
       <div className="w-full flex justify-around">
         <button
-          className="text-sm font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-green text-green hover:bg-purple hover:text-white outline-none"
+          className="text-sm font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-green-600 text-green-600 hover:bg-purple-600 hover:text-white outline-none cursor-pointer"
           onClick={increment}
         >
           Increment
         </button>
         <button
-          className="text-sm font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-red text-red hover:bg-purple hover:text-white outline-none"
+          className="text-sm font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-red-600 text-red-600 hover:bg-purple-600 hover:text-white outline-none cursor-pointer"
           onClick={decrement}
         >
           Decrement

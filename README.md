@@ -13,7 +13,9 @@ This project includes following packages:
 
 `npm start` starts up web app in development mode with web server and HMR.
 
-`npm run build` Build for production.
+`npm run build` to build for production.
+
+`npm test` to run tests.
 
 ## How to run
 
