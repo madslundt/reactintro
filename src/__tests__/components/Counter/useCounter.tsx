@@ -3,7 +3,7 @@ import "jest-dom/extend-expect";
 
 import React from "react";
 import {render, fireEvent, cleanup} from "react-testing-library";
-import { useCounter } from "Components/Counter";
+import { useCounter } from "components/Counter";
 
 afterEach(cleanup);
 

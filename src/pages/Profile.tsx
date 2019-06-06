@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Input from "Components/Input";
+import Input from "components/Input";
 
 const Profile = () => {
   const [firstName, setFirstName] = useState("Harry");

@@ -1,6 +1,6 @@
 import React from "react";
 
-import WindowSize from "Components/WindowSize";
+import WindowSize from "components/WindowSize";
 
 
 const Window = () => (
