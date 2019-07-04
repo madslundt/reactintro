@@ -6,9 +6,9 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-fontawesome": "^1.6.1",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "typescript": "3.4.5"
+    "typescript": "3.5.2"
   },
   "scripts": {
     "build:css": "postcss src/styles/index.css -o src/index.css",
@@ -39,18 +39,18 @@
     ]
   },
   "devDependencies": {
-    "@types/jest": "24.0.13",
-    "@types/node": "12.0.2",
-    "@types/react": "16.8.17",
+    "@types/jest": "24.0.15",
+    "@types/node": "12.0.12",
+    "@types/react": "16.8.23",
     "@types/react-dom": "16.8.4",
     "@types/react-fontawesome": "^1.6.4",
-    "@types/react-router-dom": "^4.3.3",
-    "autoprefixer": "^9.5.1",
-    "jest-dom": "^3.2.2",
+    "@types/react-router-dom": "^4.3.4",
+    "autoprefixer": "^9.6.0",
+    "jest-dom": "^3.5.0",
     "postcss-cli": "^6.1.2",
-    "react-hot-loader": "^4.8.7",
-    "react-testing-library": "^7.0.1",
-    "tailwindcss": "^1.0.1",
+    "react-hot-loader": "^4.12.3",
+    "react-testing-library": "^8.0.1",
+    "tailwindcss": "^1.0.4",
     "webpack-bundle-analyzer": "^3.3.2"
   }
 }
